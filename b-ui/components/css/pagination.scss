@@ -1,0 +1,40 @@
+.m-pagination {
+    span {
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .active {
+      background: skyblue;
+    }
+    text-align: center;
+    button {
+      margin: 0 5px;
+      background-color: #f4f4f5;
+      color: #606266;
+      outline: none;
+      border-radius: 2px;
+      padding: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+      font-size: 13px;
+      min-width: 35.5px;
+      height: 28px;
+      line-height: 28px;
+      cursor: pointer;
+      box-sizing: border-box;
+      text-align: center;
+      border: 0;
+  
+      &[disabled] {
+        color: #c0c4cc;
+        cursor: not-allowed;
+      }
+  
+      &.active {
+        cursor: not-allowed;
+        background-color: #409eff;
+        color: #fff;
+      }
+    }
+  }
